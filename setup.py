@@ -17,4 +17,4 @@ setup(
   long_description_content_type="text/markdown",
   author="NestorDante",
   author_email="nestor.d.urdaneta@gmail.com", 
-)
+) 
