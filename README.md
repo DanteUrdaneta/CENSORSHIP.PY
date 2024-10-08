@@ -52,21 +52,6 @@ if __name__ == "__main__":
     audio_to_text = censorship.return_audio_text('censored_audio.mp3')
     print(audio_to_text)
 ```
-## Audio Example
-In this case, we will censorship the word "fat" from the "test_sound1.mp3"
-
-```python
-if __name__ == '__main__':
-  censorship = Censorship_Audio()
-  censorship.censure_audio('test_sound1.mp3', 'censored_audio.mp3', ['fat'])
-```
-
-### Input Audio
-C:\Users\dantednt\Documents\programming projects (python)\testing libraries\test_sound1.mp3
-
-### Output Audio
-C:\Users\dantednt\Documents\programming projects (python)\testing libraries\censored_audio.mp3
-
 ## Contributing
 
 If you find a bug or have an idea for improvement, feel free to open an issue or submit a pull request. Contributions are always welcome!
