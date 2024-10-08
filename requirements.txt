@@ -1,0 +1,3 @@
+pydub,
+faster-whisper,
+sentence-transformers
