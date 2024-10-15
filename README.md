@@ -4,7 +4,7 @@
 </div>
 
 ![Static Badge](https://img.shields.io/badge/open-source-green)
-![Static Badge](https://img.shields.io/badge/version-0.15-blue)
+![Static Badge](https://img.shields.io/badge/version-0.16-blue)
 ![PyPI - Downloads](https://img.shields.io/pypi/dm/censorship-py)
 
 
