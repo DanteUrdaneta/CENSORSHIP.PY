@@ -53,6 +53,20 @@ if __name__ == "__main__":
     audio_to_text = censorship.return_audio_text('censored_audio.mp3')
     print(audio_to_text)
 ```
+
+## Changing Whisper Model Parameters
+By default, Censorship Audio uses the large-v3 Whisper model with cpu as the device and int8 for the compute type. However, you can change these parameters based on your system's capabilities or model preferences.
+
+You can check the differents types of models and parameter in the [faster-whisper documentation](https://github.com/guillaumekln/faster-whisper).
+
+### Example
+
+```python
+# Create an instance with custom Whisper model parameters
+# Run on GPU with FP16
+censorship = Censorship_Audio(model_size='large-v2', device='"cuda"', compute_type='"float16"')
+```
+
 ## Contributing
 
 If you find a bug or have an idea for improvement, feel free to open an issue or submit a pull request. Contributions are always welcome!

@@ -2,8 +2,8 @@ from faster_whisper import WhisperModel
 from censorship.tools import *
 
 class Censorship_Audio():
-  def __init__(self):
-    self.model = WhisperModel("large-v3", device = 'cpu', compute_type = 'int8')
+  def __init__(self, model = 'large-v3', device = 'cpu', compute_type = 'int8'):
+    self.model = WhisperModel(model, device = device, compute_type = compute_type)
   
   def whisper(self, audio):
     segments, _ = self.model.transcribe(audio, beam_size = 5, word_timestamps = True)
