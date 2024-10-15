@@ -4,7 +4,8 @@
 </div>
 
 ![Static Badge](https://img.shields.io/badge/open-source-green)
-![Static Badge](https://img.shields.io/badge/version-0.1-blue)
+![Static Badge](https://img.shields.io/badge/version-0.15-blue)
+![PyPI - Downloads](https://img.shields.io/pypi/dm/censorship-py)
 
 
 Censorship Audio is a Python library that allows you to censor specific words in an audio file based on a given list of words. The library outputs a censored version of the input audio, replacing the specified words with a beep sound.
