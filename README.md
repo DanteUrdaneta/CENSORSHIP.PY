@@ -21,7 +21,7 @@ Censorship Audio is a Python library that allows you to censor specific words in
 ## Installation
 
 ```bash
-pip install censorship.py
+pip install censorship-py
 ```
 
 Make sure you have installed **ffmpeg** for audio processing.
